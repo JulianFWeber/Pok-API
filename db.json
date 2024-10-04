@@ -1237,13 +1237,6 @@
     ],
 
 
-
-
-
-
-
-
-
     "effectivenessTable": {
         "normal": {
           "strongAgainst": [],
@@ -1335,6 +1328,19 @@
           "weakAgainst": ["steel", "poison", "fairy"],
           "neutralAgainst": ["normal", "fire", "water", "electric", "rock", "bug", "psychic", "grass", "ice", "ghost", "flying", "ground"]
         }
+      },
+  
+    "Usuarios": [
+      {
+        "User": "",
+        "Senha": "",
+        "Pokemons": {
+          "Nome": ""
+        },
+        "Pokedex": {
+          "DexNome": ""
+        }
       }
-    }
+    ]
+  }
     
