@@ -1330,7 +1330,7 @@
         }
       },
   
-    "Usuarios": [
+    "Users": [
       {
         "User": "",
         "Senha": "",
@@ -1340,6 +1340,13 @@
         "Pokedex": {
           "DexNome": ""
         }
+      }
+    ],
+
+    "Encounters": [
+      {
+        "PadraoVegetação1": "./Front_Poke/src/assets/PadraoVegetacao.webp",
+        "PadraoFogo1": "C:/Users/Usuario/source/repos/PokéAPI/Front Poké/front-poke/src/assets/PadraoFogo.png"
       }
     ]
   }
