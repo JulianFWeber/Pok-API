@@ -3,16 +3,34 @@ const routes = [
     path: '/',
     component: () => import('layouts/MainLayout.vue'),
     children: [
-      { path: '', component: () => import('pages/IndexPage.vue') }
-    ]
-  },
+      {
+        path: '',
+        component: () => import('pages/LoginPage.vue'),
+      },
+      {
+        path: 'image',
+        component: () => import('pages/imagePage.vue'),
+      },
+      {
+        path: "register",
+        component: () => import("pages/RegisterPage.vue"),
+      },
 
-  // Always leave this as last one,
-  // but you can also remove it
+      {
+        path: "pokedex",
+        component: () => import("pages/PokedexPage.vue"),
+      },  
+      {
+        path: "dex",
+        component: () => import("pages/DexPage.vue"),
+      },
+    ],
+  },
+  // Fallback para páginas não encontradas
   {
     path: '/:catchAll(.*)*',
-    component: () => import('pages/ErrorNotFound.vue')
-  }
-]
+    component: () => import('pages/ErrorNotFound.vue'),
+  },
+];
 
-export default routes
+export default routes;

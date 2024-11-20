@@ -1,1353 +1,1778 @@
 {
-    "pokemons": [
-      {
-        "name": "bulbasaur",
-        "url": "https://pokeapi.co/api/v2/pokemon/1/",
-        "type": "grass",
-        "level": 5,
-        "sprites":[
-          {
-            "back":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/1.png",
-            "front":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png"
-          }
-        ],
-        "abilities": [
-          {
-            "name": "razor leaf",
-            "element": "grass",
-            "poder": 9
-          },
-          {
-            "name": "vine whip",
-            "element": "grass",
-            "poder": 25
-          }
-        ]
-      },
-      {
-        "name": "ivysaur",
-        "url": "https://pokeapi.co/api/v2/pokemon/2/",
-        "type": "grass",
-        "level": 40,
-        "sprites":[
-          {
-            "back":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/2.png",
-            "front":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png"
-          }
-        ],
-        "abilities": [
-          {
-            "name": "razor leaf",
-            "element": "grass",
-            "poder": 9
-          },
-          {
-            "name": "vine whip",
-            "element": "grass",
-            "poder": 25
-          },
-          {
-            "name": "leaf storm",
-            "element": "grass",
-            "poder": 40
-          }
-        ]
-      },
-      {
-        "name": "venusaur",
-        "url": "https://pokeapi.co/api/v2/pokemon/3/",
-        "type": "grass",
-        "level": 80,
-        "sprites":[
-          {
-            "back":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/3.png",
-            "front":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png"
-          }
-        ],
-        "abilities": [
-          {
-            "name": "razor leaf",
-            "element": "grass",
-            "poder": 9
-          },
-          {
-            "name": "vine whip",
-            "element": "grass",
-            "poder": 25
-          },
-          {
-            "name": "leaf storm",
-            "element": "grass",
-            "poder": 40
-          },
-          {
-            "name": "solar beam",
-            "element": "grass",
-            "poder": 70
-          }
-        ]
-      },
-      {
-        "name": "charmander",
-        "url": "https://pokeapi.co/api/v2/pokemon/4/",
-        "type": "fire",
-        "level": 5,
-        "sprites":[
-          {
-            "back":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/4.png",
-            "front":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png"
-          }
-        ],
-        "abilities": [
-          {
-            "name": "ember",
-            "element": "fire",
-            "poder": 10
-          },
-          {
-            "name": "scratch",
-            "element": "normal",
-            "poder": 6
-          }
-        ]
-      },
-      {
-        "name": "charmeleon",
-        "url": "https://pokeapi.co/api/v2/pokemon/5/",
-        "type": "fire",
-        "level": 35,
-        "sprites":[
-          {
-            "back":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/5.png",
-            "front":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png"
-          }
-        ],
-        "abilities": [
-          {
-            "name": "ember",
-            "element": "fire",
-            "poder": 10
-          },
-          {
-            "name": "flame burst",
-            "element": "fire",
-            "poder": 30
-          },
-          {
-            "name": "scratch",
-            "element": "normal",
-            "poder": 6
-          }
-        ]
-      },
-      {
-        "name": "charizard",
-        "url": "https://pokeapi.co/api/v2/pokemon/6/",
-        "type": "fire",
-        "level": 80,
-        "sprites":[
-          {
-            "back":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/6.png",
-            "front":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png"
-          }
-        ],
-        "abilities": [
-          {
-            "name": "ember",
-            "element": "fire",
-            "poder": 10
-          },
-          {
-            "name": "flamethrower",
-            "element": "fire",
-            "poder": 60
-          },
-          {
-            "name": "wing attack",
-            "element": "flying",
-            "poder": 35
-          },
-          {
-            "name": "scratch",
-            "element": "normal",
-            "poder": 6
-          }
-        ],
-        "stats": [
-          {
-            "defense": 50,
-            "attack": 50,
-            "hp": 3700
-          }
-        ]
-      },
-      {
-        "name": "squirtle",
-        "url": "https://pokeapi.co/api/v2/pokemon/7/",
-        "type": "water",
-        "level": 5,
-        "sprites":[
-          {
-            "back":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/7.png",
-            "front":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png"
-          }
-        ],
-        "abilities": [
-          {
-            "name": "water gun",
-            "element": "water",
-            "poder": 12
-          },
-          {
-            "name": "tackle",
-            "element": "normal",
-            "poder": 5
-          }
-        ]
-      },
-      {
-        "name": "wartortle",
-        "url": "https://pokeapi.co/api/v2/pokemon/8/",
-        "type": "water",
-        "level": 35,
-        "sprites":[
-          {
-            "back":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/8.png",
-            "front":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png"
-          }
-        ],
-        "abilities": [
-          {
-            "name": "water gun",
-            "element": "water",
-            "poder": 12
-          },
-          {
-            "name": "bubble beam",
-            "element": "water",
-            "poder": 30
-          },
-          {
-            "name": "tackle",
-            "element": "normal",
-            "poder": 5
-          }
-        ]
-      },
-      {
-        "name": "blastoise",
-        "url": "https://pokeapi.co/api/v2/pokemon/9/",
-        "type": "water",
-        "level": 80,
-        "sprites":[
-          {
-            "back":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/9.png",
-            "front":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png"
-          }
-        ],
-        "abilities": [
-          {
-            "name": "water gun",
-            "element": "water",
-            "poder": 12
-          },
-          {
-            "name": "bubble beam",
-            "element": "water",
-            "poder": 30
-          },
-          {
-            "name": "hydro pump",
-            "element": "water",
-            "poder": 70
-          },
-          {
-            "name": "tackle",
-            "element": "normal",
-            "poder": 5
-          }
-        ]
-      },
-      {
-        "name": "caterpie",
-        "url": "https://pokeapi.co/api/v2/pokemon/10/",
-        "type": "bug",
-        "level": 5,
-        "sprites": [
-          {
-            "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10.png",
-            "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10.png"
-          }
-        ],
-        "abilities": [
-          {
-            "name": "tackle",
-            "element": "normal",
-            "poder": 5
-          },
-          {
-            "name": "string shot",
-            "element": "bug",
-            "poder": 3
-          }
-        ],
-        "stats": [
-          {
-            "defense": 35,
-            "attack": 30,
-            "hp": 2000
-          }
-        ]
-      },
-      {
-        "name": "metapod",
-        "url": "https://pokeapi.co/api/v2/pokemon/11/",
-        "type": "bug",
-        "level": 10,
-        "sprites": [
-          {
-            "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/11.png",
-            "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/11.png"
-          }
-        ],
-        "abilities": [
-          {
-            "name": "harden",
-            "element": "normal",
-            "poder": 0
-          },
-          {
-            "name": "string shot",
-            "element": "bug",
-            "poder": 3
-          }
-        ],
-        "stats": [
-          {
-            "defense": 55,
-            "attack": 20,
-            "hp": 2500
-          }
-        ]
-      },
-      {
-        "name": "butterfree",
-        "url": "https://pokeapi.co/api/v2/pokemon/12/",
-        "type": "bug",
-        "level": 30,
-        "sprites": [
-          {
-            "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/12.png",
-            "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png"
-          }
-        ],
-        "abilities": [
-          {
-            "name": "gust",
-            "element": "flying",
-            "poder": 25
-          },
-          {
-            "name": "confusion",
-            "element": "psychic",
-            "poder": 30
-          },
-          {
-            "name": "psybeam",
-            "element": "psychic",
-            "poder": 40
-          }
-        ],
-        "stats": [
-          {
-            "defense": 50,
-            "attack": 45,
-            "hp": 3000
-          }
-        ]
-      },
-      {
-        "name": "weedle",
-        "url": "https://pokeapi.co/api/v2/pokemon/13/",
-        "type": "bug",
-        "level": 5,
-        "sprites": [
-          {
-            "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/13.png",
-            "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/13.png"
-          }
-        ],
-        "abilities": [
-          {
-            "name": "poison sting",
-            "element": "poison",
-            "poder": 15
-          },
-          {
-            "name": "string shot",
-            "element": "bug",
-            "poder": 3
-          }
-        ],
-        "stats": [
-          {
-            "defense": 30,
-            "attack": 35,
-            "hp": 2000
-          }
-        ]
-      },
-      {
-        "name": "kakuna",
-        "url": "https://pokeapi.co/api/v2/pokemon/14/",
-        "type": "bug",
-        "level": 10,
-        "sprites": [
-          {
-            "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/14.png",
-            "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/14.png"
-          }
-        ],
-        "abilities": [
-          {
-            "name": "harden",
-            "element": "normal",
-            "poder": 0
-          },
-          {
-            "name": "string shot",
-            "element": "bug",
-            "poder": 3
-          }
-        ],
-        "stats": [
-          {
-            "defense": 50,
-            "attack": 25,
-            "hp": 2500
-          }
-        ]
-      },
-      {
-        "name": "beedrill",
-        "url": "https://pokeapi.co/api/v2/pokemon/15/",
-        "type": "bug",
-        "level": 30,
-        "sprites": [
-          {
-            "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/15.png",
-            "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/15.png"
-          }
-        ],
-        "abilities": [
-          {
-            "name": "fury attack",
-            "element": "normal",
-            "poder": 20
-          },
-          {
-            "name": "twineedle",
-            "element": "bug",
-            "poder": 25
-          },
-          {
-            "name": "poison jab",
-            "element": "poison",
-            "poder": 35
-          }
-        ],
-        "stats": [
-          {
-            "defense": 40,
-            "attack": 80,
-            "hp": 3200
-          }
-        ]
-      },
-      {
-        "name": "pidgey",
-        "url": "https://pokeapi.co/api/v2/pokemon/16/",
-        "type": "flying",
-        "level": 5,
-        "sprites": [
-          {
-            "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/16.png",
-            "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/16.png"
-          }
-        ],
-        "abilities": [
-          {
-            "name": "tackle",
-            "element": "normal",
-            "poder": 5
-          },
-          {
-            "name": "gust",
-            "element": "flying",
-            "poder": 25
-          }
-        ],
-        "stats": [
-          {
-            "defense": 40,
-            "attack": 45,
-            "hp": 2500
-          }
-        ]
-      },
-      {
-        "name": "pidgeotto",
-        "url": "https://pokeapi.co/api/v2/pokemon/17/",
-        "type": "flying",
-        "level": 20,
-        "sprites": [
-          {
-            "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/17.png",
-            "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/17.png"
-          }
-        ],
-        "abilities": [
-          {
-            "name": "quick attack",
-            "element": "normal",
-            "poder": 10
-          },
-          {
-            "name": "gust",
-            "element": "flying",
-            "poder": 25
-          },
-          {
-            "name": "wing attack",
-            "element": "flying",
-            "poder": 35
-          }
-        ],
-        "stats": [
-          {
-            "defense": 55,
-            "attack": 60,
-            "hp": 3000
-          }
-        ]
-      },
-      {
-        "name": "pidgeot",
-        "url": "https://pokeapi.co/api/v2/pokemon/18/",
-        "type": "flying",
-        "level": 80,
-        "sprites": [
-          {
-            "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/18.png",
-            "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/18.png"
-          }
-        ],
-        "abilities": [
-          {
-            "name": "wing attack",
-            "element": "flying",
-            "poder": 35
-          },
-          {
-            "name": "quick attack",
-            "element": "normal",
-            "poder": 10
-          },
-          {
-            "name": "aeroblast",
-            "element": "flying",
-            "poder": 65
-          }
-        ],
-        "stats": [
-          {
-            "defense": 70,
-            "attack": 80,
-            "hp": 4000
-          }
-        ]
-      },
-      {
-        "name": "rattata",
-        "url": "https://pokeapi.co/api/v2/pokemon/19/",
-        "type": "normal",
-        "level": 5,
-        "sprites": [
-          {
-            "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/19.png",
-            "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/19.png"
-          }
-        ],
-        "abilities": [
-          {
-            "name": "tackle",
-            "element": "normal",
-            "poder": 5
-          },
-          {
-            "name": "quick attack",
-            "element": "normal",
-            "poder": 10
-          }
-        ],
-        "stats": [
-          {
-            "defense": 35,
-            "attack": 40,
-            "hp": 2000
-          }
-        ]
-      },
-      {
-        "name": "raticate",
-        "url": "https://pokeapi.co/api/v2/pokemon/20/",
-        "type": "normal",
-        "level": 20,
-        "sprites": [
-          {
-            "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/20.png",
-            "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/20.png"
-          }
-        ],
-        "abilities": [
-          {
-            "name": "bite",
-            "element": "dark",
-            "poder": 30
-          },
-          {
-            "name": "quick attack",
-            "element": "normal",
-            "poder": 10
-          },
-          {
-            "name": "hyper fang",
-            "element": "normal",
-            "poder": 50
-          }
-        ],
-        "stats": [
-          {
-            "defense": 55,
-            "attack": 70,
-            "hp": 3500
-          }
-        ]
-      },
-      {
-        "name": "spearow",
-        "url": "https://pokeapi.co/api/v2/pokemon/21/",
-        "type": "flying",
-        "level": 5,
-        "sprites": [
-          {
-            "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/21.png",
-            "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/21.png"
-          }
-        ],
-        "abilities": [
-          {
-            "name": "peck",
-            "element": "flying",
-            "poder": 10
-          },
-          {
-            "name": "drill peck",
-            "element": "flying",
-            "poder": 20
-          }
-        ],
-        "stats": [
-          {
-            "defense": 30,
-            "attack": 45,
-            "hp": 2200
-          }
-        ]
-      },
-      {
-        "name": "fearow",
-        "url": "https://pokeapi.co/api/v2/pokemon/22/",
-        "type": "flying",
-        "level": 40,
-        "sprites": [
-          {
-            "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/22.png",
-            "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/22.png"
-          }
-        ],
-        "abilities": [
-          {
-            "name": "peck",
-            "element": "flying",
-            "poder": 15
-          },
-          {
-            "name": "drill peck",
-            "element": "flying",
-            "poder": 20
-          },
-          {
-            "name": "wing attack",
-            "element": "flying",
-            "poder": 35
-          }
-        ],
-        "stats": [
-          {
-            "defense": 60,
-            "attack": 85,
-            "hp": 4000
-          }
-        ]
-      },
-      {
-        "name": "ekans",
-        "url": "https://pokeapi.co/api/v2/pokemon/23/",
-        "type": "poison",
-        "level": 10,
-        "sprites": [
-          {
-            "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/23.png",
-            "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/23.png"
-          }
-        ],
-        "abilities": [
-          {
-            "name": "bite",
-            "element": "dark",
-            "poder": 30
-          },
-          {
-            "name": "poison sting",
-            "element": "poison",
-            "poder": 15
-          }
-        ],
-        "stats": [
-          {
-            "defense": 40,
-            "attack": 35,
-            "hp": 2500
-          }
-        ]
-      },
-      {
-        "name": "arbok",
-        "url": "https://pokeapi.co/api/v2/pokemon/24/",
-        "type": "poison",
-        "level": 30,
-        "sprites": [
-          {
-            "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/24.png",
-            "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/24.png"
-          }
-        ],
-        "abilities": [
-          {
-            "name": "bite",
-            "element": "dark",
-            "poder": 30
-          },
-          {
-            "name": "poison sting",
-            "element": "poison",
-            "poder": 15
-          },
-          {
-            "name": "acid",
-            "element": "poison",
-            "poder": 40
-          }
-        ],
-        "stats": [
-          {
-            "defense": 60,
-            "attack": 65,
-            "hp": 3200
-          }
-        ]
-      },
-      {
-        "name": "pikachu",
-        "url": "https://pokeapi.co/api/v2/pokemon/25/",
-        "type": "electric",
-        "level": 50,
-        "sprites": [
-          {
-            "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/25.png",
-            "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png"
-          }
-        ],
-        "abilities": [
-          {
-            "name": "thundershock",
-            "element": "electric",
-            "poder": 20
-          },
-          {
-            "name": "quick attack",
-            "element": "normal",
-            "poder": 10
-          },
-          {
-            "name": "thunderbolt",
-            "element": "electric",
-            "poder": 30
-          }
-        ],
-        "stats": [
-          {
-            "defense": 40,
-            "attack": 55,
-            "hp": 2600
-          }
-        ]
-      },
-      {
-        "name": "raichu",
-        "url": "https://pokeapi.co/api/v2/pokemon/26/",
-        "type": "electric",
-        "level": 80,
-        "sprites": [
-          {
-            "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/26.png",
-            "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/26.png"
-          }
-        ],
-        "abilities": [
-          {
-            "name": "thundershock",
-            "element": "electric",
-            "poder": 20
-          },
-          {
-            "name": "thunderbolt",
-            "element": "electric",
-            "poder": 20
-          },
-          {
-            "name": "electric storm",
-            "element": "electric",
-            "poder": 60
-          }
-        ],
-        "stats": [
-          {
-            "defense": 60,
-            "attack": 85,
-            "hp": 3400
-          }
-        ]
-      },
-      {
-        "name": "sandshrew",
-        "url": "https://pokeapi.co/api/v2/pokemon/27/",
-        "type": "ground",
-        "level": 10,
-        "sprites": [
-          {
-            "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/27.png",
-            "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/27.png"
-          }
-        ],
-        "abilities": [
-          {
-            "name": "scratch",
-            "element": "normal",
-            "poder": 6
-          },
-          {
-            "name": "mud shot",
-            "element": "ground",
-            "poder": 20
-          }
-        ],
-        "stats": [
-          {
-            "defense": 60,
-            "attack": 40,
-            "hp": 2800
-          }
-        ]
-      },
-      {
-        "name": "sandslash",
-        "url": "https://pokeapi.co/api/v2/pokemon/28/",
-        "type": "ground",
-        "level": 60,
-        "sprites": [
-          {
-            "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/28.png",
-            "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/28.png"
-          }
-        ],
-        "abilities": [
-          {
-            "name": "slash",
-            "element": "normal",
-            "poder": 20
-          },
-          {
-            "name": "earth power",
-            "element": "ground",
-            "poder": 30
-          },
-          {
-            "name": "earthquake",
-            "element": "ground",
-            "poder": 65
-          }
-        ],
-        "stats": [
-          {
-            "defense": 85,
-            "attack": 75,
-            "hp": 3600
-          }
-        ]
-      },
-      {
-        "name": "nidoran-f",
-        "url": "https://pokeapi.co/api/v2/pokemon/29/",
-        "type": "poison",
-        "level": 10,
-        "sprites": [
-          {
-            "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/29.png",
-            "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/29.png"
-          }
-        ],
-        "abilities": [
-          {
-            "name": "poison sting",
-            "element": "poison",
-            "poder": 15
-          },
-          {
-            "name": "double kick",
-            "element": "fighting",
-            "poder": 30
-          }
-        ],
-        "stats": [
-          {
-            "defense": 40,
-            "attack": 50,
-            "hp": 2500
-          }
-        ]
-      },
-      {
-        "name": "nidorina",
-        "url": "https://pokeapi.co/api/v2/pokemon/30/",
-        "type": "poison",
-        "level": 30,
-        "sprites": [
-          {
-            "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/30.png",
-            "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/30.png"
-          }
-        ],
-        "abilities": [
-          {
-            "name": "poison sting",
-            "element": "poison",
-            "poder": 15
-          },
-          {
-            "name": "body slam",
-            "element": "normal",
-            "poder": 85
-          }
-        ],
-        "stats": [
-          {
-            "defense": 55,
-            "attack": 65,
-            "hp": 3200
-          }
-        ]
-      },
-      {
-        "name": "nidoqueen",
-        "url": "https://pokeapi.co/api/v2/pokemon/31/",
-        "type": "ground",
-        "level": 60,
-        "sprites": [
-          {
-            "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/31.png",
-            "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/31.png"
-          }
-        ],
-        "abilities": [
-          {
-            "name": "poison sting",
-            "element": "poison",
-            "poder": 15
-          },
-          {
-            "name": "earth power",
-            "element": "ground",
-            "poder": 30
-          },
-          {
-            "name": "earthquake",
-            "element": "ground",
-            "poder": 65
-          }
-        ],
-        "stats": [
-          {
-            "defense": 90,
-            "attack": 82,
-            "hp": 4500
-          }
-        ]
-      },
-      {
-        "name": "nidoran-m",
-        "url": "https://pokeapi.co/api/v2/pokemon/32/",
-        "type": "poison",
-        "level": 10,
-        "sprites": [
-          {
-            "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/32.png",
-            "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/32.png"
-          }
-        ],
-        "abilities": [
-          {
-            "name": "poison sting",
-            "element": "poison",
-            "poder": 15
-          },
-          {
-            "name": "double kick",
-            "element": "fighting",
-            "poder": 30
-          }
-        ],
-        "stats": [
-          {
-            "defense": 40,
-            "attack": 50,
-            "hp": 2500
-          }
-        ]
-      },
-      {
-        "name": "nidorino",
-        "url": "https://pokeapi.co/api/v2/pokemon/33/",
-        "type": "poison",
-        "level": 30,
-        "sprites": [
-          {
-            "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/33.png",
-            "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/33.png"
-          }
-        ],
-        "abilities": [
-          {
-            "name": "poison sting",
-            "element": "poison",
-            "poder": 15
-          },
-          {
-            "name": "horn attack",
-            "element": "normal",
-            "poder": 65
-          }
-        ],
-        "stats": [
-          {
-            "defense": 45,
-            "attack": 70,
-            "hp": 2800
-          }
-        ]
-      },
-      {
-        "name": "nidoking",
-        "url": "https://pokeapi.co/api/v2/pokemon/34/",
-        "type": "poison",
-        "level": 70,
-        "sprites": [
-          {
-            "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/34.png",
-            "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/34.png"
-          }
-        ],
-        "abilities": [
-          {
-            "name": "poison sting",
-            "element": "poison",
-            "poder": 15
-          },
-          {
-            "name": "toxic",
-            "element": "poison",
-            "poder": 30
-          },
-          {
-            "name": "venoshock",
-            "element": "poison",
-            "poder": 70
-          }
-        ],
-        "stats": [
-          {
-            "defense": 70,
-            "attack": 92,
-            "hp": 4500
-          }
-        ]
-      },
-      {
-        "name": "clefairy",
-        "url": "https://pokeapi.co/api/v2/pokemon/35/",
-        "type": "fairy",
-        "level": 35,
-        "sprites": [
-          {
-            "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/35.png",
-            "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/35.png"
-          }
-        ],
-        "abilities": [
-          {
-            "name": "pound",
-            "element": "normal",
-            "poder": 40
-          },
-          {
-            "name": "metronome",
-            "element": "normal",
-            "poder": 0
-          }
-        ],
-        "stats": [
-          {
-            "defense": 50,
-            "attack": 45,
-            "hp": 3200
-          }
-        ]
-      },
-      {
-        "name": "clefable",
-        "url": "https://pokeapi.co/api/v2/pokemon/36/",
-        "type": "fairy",
-        "level": 40,
-        "sprites": [
-          {
-            "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/36.png",
-            "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/36.png"
-          }
-        ],
-        "abilities": [
-          {
-            "name": "pound",
-            "element": "normal",
-            "poder": 40
-          },
-          {
-            "name": "moonblast",
-            "element": "fairy",
-            "poder": 95
-          }
-        ],
-        "stats": [
-          {
-            "defense": 70,
-            "attack": 65,
-            "hp": 4000
-          }
-        ]
-      },
-      {
-        "name": "vulpix",
-        "url": "https://pokeapi.co/api/v2/pokemon/37/",
-        "type": "fire",
-        "level": 25,
-        "sprites": [
-          {
-            "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/37.png",
-            "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/37.png"
-          }
-        ],
-        "abilities": [
-          {
-            "name": "ember",
-            "element": "fire",
-            "poder": 15
-          },
-          {
-            "name": "flamethrower",
-            "element": "normal",
-            "poder": 30
-          }
-        ],
-        "stats": [
-          {
-            "defense": 50,
-            "attack": 60,
-            "hp": 2900
-          }
-        ]
-      },
-      {
-        "name": "ninetales",
-        "url": "https://pokeapi.co/api/v2/pokemon/38/",
-        "type": "fire",
-        "level": 80,
-        "sprites": [
-          {
-            "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/38.png",
-            "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/38.png"
-          }
-        ],
-        "abilities": [
-          {
-            "name": "ember",
-            "element": "fire",
-            "poder": 20
-          },
-          {
-            "name": "fire ball",
-            "element": "fire",
-            "poder": 40
-          },
-          {
-            "name": "fire blast",
-            "element": "fire",
-            "poder": 110
-          }
-        ],
-        "stats": [
-          {
-            "defense": 75,
-            "attack": 85,
-            "hp": 4800
-          }
-        ]
-      }
-
-
-    ],
-
-
-    "effectivenessTable": {
-        "normal": {
-          "strongAgainst": [],
-          "weakAgainst": ["rock", "ghost", "steel"],
-          "neutralAgainst": ["fire", "water", "grass", "electric", "ice", "dragon", "dark", "fairy", "poison", "flying", "ground", "bug", "psychic"]
-        },
-        "fighting": {
-          "strongAgainst": ["normal", "rock", "steel", "ice", "dark"],
-          "weakAgainst": ["flying", "psychic", "fairy"],
-          "neutralAgainst": ["fighting", "fire", "water", "grass", "electric", "dragon", "poison", "ground", "bug", "ghost"]
-        },
-        "flying": {
-          "strongAgainst": ["fighting", "bug", "grass"],
-          "weakAgainst": ["rock", "electric", "ice"],
-          "neutralAgainst": ["normal", "water", "steel", "fire", "psychic", "fairy", "ground", "dark", "dragon", "poison", "ghost"]
-        },
-        "poison": {
-          "strongAgainst": ["grass", "fairy"],
-          "weakAgainst": ["ground", "psychic", "steel"],
-          "neutralAgainst": ["normal", "fire", "water", "electric", "rock", "bug", "dark", "ice", "dragon", "ghost", "flying"]
-        },
-        "ground": {
-          "strongAgainst": ["fire", "electric", "rock", "poison", "steel"],
-          "weakAgainst": ["water", "grass", "ice", "flying"],
-          "neutralAgainst": ["normal", "bug", "dark", "psychic", "fairy", "ghost", "dragon"]
-        },
-        "rock": {
-          "strongAgainst": ["fire", "flying", "bug", "ice"],
-          "weakAgainst": ["water", "grass", "fighting", "ground", "steel"],
-          "neutralAgainst": ["normal", "electric", "psychic", "dark", "fairy", "poison", "ghost", "dragon"]
-        },
-        "bug": {
-          "strongAgainst": ["grass", "psychic", "dark"],
-          "weakAgainst": ["fire", "flying", "rock"],
-          "neutralAgainst": ["normal", "water", "electric", "steel", "ice", "fairy", "poison", "ground", "dragon", "ghost", "fighting"]
-        },
-        "ghost": {
-          "strongAgainst": ["psychic", "ghost"],
-          "weakAgainst": ["dark"],
-          "neutralAgainst": ["fire", "water", "grass", "electric", "ice", "steel", "fairy", "rock", "ground", "dragon", "poison", "flying", "bug", "fighting"]
-        },
-        "steel": {
-          "strongAgainst": ["fairy", "ice", "rock"],
-          "weakAgainst": ["fire", "fighting", "ground", "water"],
-          "neutralAgainst": ["normal", "grass", "electric", "psychic", "dark", "ghost", "dragon", "poison", "flying", "bug"]
-        },
-        "fire": {
-          "strongAgainst": ["grass", "bug", "ice", "steel"],
-          "weakAgainst": ["water", "rock", "fire", "dragon"],
-          "neutralAgainst": ["normal", "electric", "psychic", "dark", "fairy", "ground", "ghost", "flying", "fighting", "poison"]
-        },
-        "water": {
-          "strongAgainst": ["fire", "rock", "ground"],
-          "weakAgainst": ["electric", "water", "grass"],
-          "neutralAgainst": ["normal", "flying", "bug", "psychic", "steel", "dark", "fairy", "poison", "ice", "dragon", "ghost", "fighting"]
-        },
-        "grass": {
-          "strongAgainst": ["water", "rock", "ground"],
-          "weakAgainst": ["fire", "flying", "bug", "poison", "ice", "grass"],
-          "neutralAgainst": ["normal", "electric", "psychic", "steel", "dark", "fairy", "dragon", "ghost", "fighting"]
-        },
-        "electric": {
-          "strongAgainst": ["water", "flying"],
-          "weakAgainst": ["ground", "grass"],
-          "neutralAgainst": ["normal", "fire", "rock", "bug", "psychic", "steel", "dark", "fairy", "poison", "ice", "dragon", "ghost", "fighting"]
-        },
-        "psychic": {
-          "strongAgainst": ["fighting", "poison"],
-          "weakAgainst": ["bug", "ghost", "dark"],
-          "neutralAgainst": ["grass", "normal", "fire", "water", "electric", "rock", "steel", "fairy", "ice", "dragon", "flying", "ground"]
-        },
-        "ice": {
-          "strongAgainst": ["grass", "flying", "ground", "dragon"],
-          "weakAgainst": ["fire", "steel", "fighting", "rock"],
-          "neutralAgainst": ["normal", "water", "electric", "bug", "psychic", "dark", "fairy", "poison", "ghost", "fighting"]
-        },
-        "dragon": {
-          "strongAgainst": ["dragon"],
-          "weakAgainst": ["fairy", "ice"],
-          "neutralAgainst": ["normal", "fire", "water", "electric", "grass", "rock", "bug", "psychic", "steel", "dark", "ground", "ghost", "flying", "fighting", "poison"]
-        },
-        "dark": {
-          "strongAgainst": ["psychic", "ghost"],
-          "weakAgainst": ["fighting", "bug", "fairy"],
-          "neutralAgainst": ["normal", "fire", "water", "electric", "rock", "steel", "poison", "ice", "dragon", "flying", "grass", "ground"]
-        },
-        "fairy": {
-          "strongAgainst": ["fighting", "dragon", "dark"],
-          "weakAgainst": ["steel", "poison", "fairy"],
-          "neutralAgainst": ["normal", "fire", "water", "electric", "rock", "bug", "psychic", "grass", "ice", "ghost", "flying", "ground"]
+  "pokemons": [
+    {
+      "name": "bulbasaur",
+      "url": "https://pokeapi.co/api/v2/pokemon/1/",
+      "type": "grass",
+      "level": 5,
+      "sprites": [
+        {
+          "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/1.png",
+          "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png"
         }
-      },
-  
-    "Users": [
-      {
-        "User": "",
-        "Senha": "",
-        "Pokemons": {
-          "Nome": ""
+      ],
+      "abilities": [
+        {
+          "name": "razor leaf",
+          "element": "grass",
+          "poder": 9
         },
-        "Pokedex": {
-          "DexNome": ""
+        {
+          "name": "vine whip",
+          "element": "grass",
+          "poder": 25
         }
+      ],
+      "id": "e3cd"
+    },
+    {
+      "name": "ivysaur",
+      "url": "https://pokeapi.co/api/v2/pokemon/2/",
+      "type": "grass",
+      "level": 40,
+      "sprites": [
+        {
+          "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/2.png",
+          "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png"
+        }
+      ],
+      "abilities": [
+        {
+          "name": "razor leaf",
+          "element": "grass",
+          "poder": 9
+        },
+        {
+          "name": "vine whip",
+          "element": "grass",
+          "poder": 25
+        },
+        {
+          "name": "leaf storm",
+          "element": "grass",
+          "poder": 40
+        }
+      ],
+      "id": "a9ae"
+    },
+    {
+      "name": "venusaur",
+      "url": "https://pokeapi.co/api/v2/pokemon/3/",
+      "type": "grass",
+      "level": 80,
+      "sprites": [
+        {
+          "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/3.png",
+          "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png"
+        }
+      ],
+      "abilities": [
+        {
+          "name": "razor leaf",
+          "element": "grass",
+          "poder": 9
+        },
+        {
+          "name": "vine whip",
+          "element": "grass",
+          "poder": 25
+        },
+        {
+          "name": "leaf storm",
+          "element": "grass",
+          "poder": 40
+        },
+        {
+          "name": "solar beam",
+          "element": "grass",
+          "poder": 70
+        }
+      ],
+      "id": "ec81"
+    },
+    {
+      "name": "charmander",
+      "url": "https://pokeapi.co/api/v2/pokemon/4/",
+      "type": "fire",
+      "level": 5,
+      "sprites": [
+        {
+          "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/4.png",
+          "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png"
+        }
+      ],
+      "abilities": [
+        {
+          "name": "ember",
+          "element": "fire",
+          "poder": 10
+        },
+        {
+          "name": "scratch",
+          "element": "normal",
+          "poder": 6
+        }
+      ],
+      "id": "dfa0"
+    },
+    {
+      "name": "charmeleon",
+      "url": "https://pokeapi.co/api/v2/pokemon/5/",
+      "type": "fire",
+      "level": 35,
+      "sprites": [
+        {
+          "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/5.png",
+          "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png"
+        }
+      ],
+      "abilities": [
+        {
+          "name": "ember",
+          "element": "fire",
+          "poder": 10
+        },
+        {
+          "name": "flame burst",
+          "element": "fire",
+          "poder": 30
+        },
+        {
+          "name": "scratch",
+          "element": "normal",
+          "poder": 6
+        }
+      ],
+      "id": "72ee"
+    },
+    {
+      "name": "charizard",
+      "url": "https://pokeapi.co/api/v2/pokemon/6/",
+      "type": "fire",
+      "level": 80,
+      "sprites": [
+        {
+          "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/6.png",
+          "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png"
+        }
+      ],
+      "abilities": [
+        {
+          "name": "ember",
+          "element": "fire",
+          "poder": 10
+        },
+        {
+          "name": "flamethrower",
+          "element": "fire",
+          "poder": 60
+        },
+        {
+          "name": "wing attack",
+          "element": "flying",
+          "poder": 35
+        },
+        {
+          "name": "scratch",
+          "element": "normal",
+          "poder": 6
+        }
+      ],
+      "stats": [
+        {
+          "defense": 50,
+          "attack": 50,
+          "hp": 3700
+        }
+      ],
+      "id": "85a8"
+    },
+    {
+      "name": "squirtle",
+      "url": "https://pokeapi.co/api/v2/pokemon/7/",
+      "type": "water",
+      "level": 5,
+      "sprites": [
+        {
+          "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/7.png",
+          "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png"
+        }
+      ],
+      "abilities": [
+        {
+          "name": "water gun",
+          "element": "water",
+          "poder": 12
+        },
+        {
+          "name": "tackle",
+          "element": "normal",
+          "poder": 5
+        }
+      ],
+      "id": "08e3"
+    },
+    {
+      "name": "wartortle",
+      "url": "https://pokeapi.co/api/v2/pokemon/8/",
+      "type": "water",
+      "level": 35,
+      "sprites": [
+        {
+          "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/8.png",
+          "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png"
+        }
+      ],
+      "abilities": [
+        {
+          "name": "water gun",
+          "element": "water",
+          "poder": 12
+        },
+        {
+          "name": "bubble beam",
+          "element": "water",
+          "poder": 30
+        },
+        {
+          "name": "tackle",
+          "element": "normal",
+          "poder": 5
+        }
+      ],
+      "id": "1b4a"
+    },
+    {
+      "name": "blastoise",
+      "url": "https://pokeapi.co/api/v2/pokemon/9/",
+      "type": "water",
+      "level": 80,
+      "sprites": [
+        {
+          "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/9.png",
+          "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png"
+        }
+      ],
+      "abilities": [
+        {
+          "name": "water gun",
+          "element": "water",
+          "poder": 12
+        },
+        {
+          "name": "bubble beam",
+          "element": "water",
+          "poder": 30
+        },
+        {
+          "name": "hydro pump",
+          "element": "water",
+          "poder": 70
+        },
+        {
+          "name": "tackle",
+          "element": "normal",
+          "poder": 5
+        }
+      ],
+      "id": "9b16"
+    },
+    {
+      "name": "caterpie",
+      "url": "https://pokeapi.co/api/v2/pokemon/10/",
+      "type": "bug",
+      "level": 5,
+      "sprites": [
+        {
+          "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/10.png",
+          "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10.png"
+        }
+      ],
+      "abilities": [
+        {
+          "name": "tackle",
+          "element": "normal",
+          "poder": 5
+        },
+        {
+          "name": "string shot",
+          "element": "bug",
+          "poder": 3
+        }
+      ],
+      "stats": [
+        {
+          "defense": 35,
+          "attack": 30,
+          "hp": 2000
+        }
+      ],
+      "id": "9a6b"
+    },
+    {
+      "name": "metapod",
+      "url": "https://pokeapi.co/api/v2/pokemon/11/",
+      "type": "bug",
+      "level": 10,
+      "sprites": [
+        {
+          "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/11.png",
+          "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/11.png"
+        }
+      ],
+      "abilities": [
+        {
+          "name": "harden",
+          "element": "normal",
+          "poder": 0
+        },
+        {
+          "name": "string shot",
+          "element": "bug",
+          "poder": 3
+        }
+      ],
+      "stats": [
+        {
+          "defense": 55,
+          "attack": 20,
+          "hp": 2500
+        }
+      ],
+      "id": "f523"
+    },
+    {
+      "name": "butterfree",
+      "url": "https://pokeapi.co/api/v2/pokemon/12/",
+      "type": "bug",
+      "level": 30,
+      "sprites": [
+        {
+          "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/12.png",
+          "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png"
+        }
+      ],
+      "abilities": [
+        {
+          "name": "gust",
+          "element": "flying",
+          "poder": 25
+        },
+        {
+          "name": "confusion",
+          "element": "psychic",
+          "poder": 30
+        },
+        {
+          "name": "psybeam",
+          "element": "psychic",
+          "poder": 40
+        }
+      ],
+      "stats": [
+        {
+          "defense": 50,
+          "attack": 45,
+          "hp": 3000
+        }
+      ],
+      "id": "2bda"
+    },
+    {
+      "name": "weedle",
+      "url": "https://pokeapi.co/api/v2/pokemon/13/",
+      "type": "bug",
+      "level": 5,
+      "sprites": [
+        {
+          "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/13.png",
+          "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/13.png"
+        }
+      ],
+      "abilities": [
+        {
+          "name": "poison sting",
+          "element": "poison",
+          "poder": 15
+        },
+        {
+          "name": "string shot",
+          "element": "bug",
+          "poder": 3
+        }
+      ],
+      "stats": [
+        {
+          "defense": 30,
+          "attack": 35,
+          "hp": 2000
+        }
+      ],
+      "id": "c642"
+    },
+    {
+      "name": "kakuna",
+      "url": "https://pokeapi.co/api/v2/pokemon/14/",
+      "type": "bug",
+      "level": 10,
+      "sprites": [
+        {
+          "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/14.png",
+          "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/14.png"
+        }
+      ],
+      "abilities": [
+        {
+          "name": "harden",
+          "element": "normal",
+          "poder": 0
+        },
+        {
+          "name": "string shot",
+          "element": "bug",
+          "poder": 3
+        }
+      ],
+      "stats": [
+        {
+          "defense": 50,
+          "attack": 25,
+          "hp": 2500
+        }
+      ],
+      "id": "aece"
+    },
+    {
+      "name": "beedrill",
+      "url": "https://pokeapi.co/api/v2/pokemon/15/",
+      "type": "bug",
+      "level": 30,
+      "sprites": [
+        {
+          "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/15.png",
+          "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/15.png"
+        }
+      ],
+      "abilities": [
+        {
+          "name": "fury attack",
+          "element": "normal",
+          "poder": 20
+        },
+        {
+          "name": "twineedle",
+          "element": "bug",
+          "poder": 25
+        },
+        {
+          "name": "poison jab",
+          "element": "poison",
+          "poder": 35
+        }
+      ],
+      "stats": [
+        {
+          "defense": 40,
+          "attack": 80,
+          "hp": 3200
+        }
+      ],
+      "id": "f21e"
+    },
+    {
+      "name": "pidgey",
+      "url": "https://pokeapi.co/api/v2/pokemon/16/",
+      "type": "flying",
+      "level": 5,
+      "sprites": [
+        {
+          "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/16.png",
+          "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/16.png"
+        }
+      ],
+      "abilities": [
+        {
+          "name": "tackle",
+          "element": "normal",
+          "poder": 5
+        },
+        {
+          "name": "gust",
+          "element": "flying",
+          "poder": 25
+        }
+      ],
+      "stats": [
+        {
+          "defense": 40,
+          "attack": 45,
+          "hp": 2500
+        }
+      ],
+      "id": "ddb0"
+    },
+    {
+      "name": "pidgeotto",
+      "url": "https://pokeapi.co/api/v2/pokemon/17/",
+      "type": "flying",
+      "level": 20,
+      "sprites": [
+        {
+          "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/17.png",
+          "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/17.png"
+        }
+      ],
+      "abilities": [
+        {
+          "name": "quick attack",
+          "element": "normal",
+          "poder": 10
+        },
+        {
+          "name": "gust",
+          "element": "flying",
+          "poder": 25
+        },
+        {
+          "name": "wing attack",
+          "element": "flying",
+          "poder": 35
+        }
+      ],
+      "stats": [
+        {
+          "defense": 55,
+          "attack": 60,
+          "hp": 3000
+        }
+      ],
+      "id": "e52d"
+    },
+    {
+      "name": "pidgeot",
+      "url": "https://pokeapi.co/api/v2/pokemon/18/",
+      "type": "flying",
+      "level": 80,
+      "sprites": [
+        {
+          "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/18.png",
+          "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/18.png"
+        }
+      ],
+      "abilities": [
+        {
+          "name": "wing attack",
+          "element": "flying",
+          "poder": 35
+        },
+        {
+          "name": "quick attack",
+          "element": "normal",
+          "poder": 10
+        },
+        {
+          "name": "aeroblast",
+          "element": "flying",
+          "poder": 65
+        }
+      ],
+      "stats": [
+        {
+          "defense": 70,
+          "attack": 80,
+          "hp": 4000
+        }
+      ],
+      "id": "1a93"
+    },
+    {
+      "name": "rattata",
+      "url": "https://pokeapi.co/api/v2/pokemon/19/",
+      "type": "normal",
+      "level": 5,
+      "sprites": [
+        {
+          "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/19.png",
+          "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/19.png"
+        }
+      ],
+      "abilities": [
+        {
+          "name": "tackle",
+          "element": "normal",
+          "poder": 5
+        },
+        {
+          "name": "quick attack",
+          "element": "normal",
+          "poder": 10
+        }
+      ],
+      "stats": [
+        {
+          "defense": 35,
+          "attack": 40,
+          "hp": 2000
+        }
+      ],
+      "id": "37fd"
+    },
+    {
+      "name": "raticate",
+      "url": "https://pokeapi.co/api/v2/pokemon/20/",
+      "type": "normal",
+      "level": 20,
+      "sprites": [
+        {
+          "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/20.png",
+          "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/20.png"
+        }
+      ],
+      "abilities": [
+        {
+          "name": "bite",
+          "element": "dark",
+          "poder": 30
+        },
+        {
+          "name": "quick attack",
+          "element": "normal",
+          "poder": 10
+        },
+        {
+          "name": "hyper fang",
+          "element": "normal",
+          "poder": 50
+        }
+      ],
+      "stats": [
+        {
+          "defense": 55,
+          "attack": 70,
+          "hp": 3500
+        }
+      ],
+      "id": "4e9a"
+    },
+    {
+      "name": "spearow",
+      "url": "https://pokeapi.co/api/v2/pokemon/21/",
+      "type": "flying",
+      "level": 5,
+      "sprites": [
+        {
+          "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/21.png",
+          "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/21.png"
+        }
+      ],
+      "abilities": [
+        {
+          "name": "peck",
+          "element": "flying",
+          "poder": 10
+        },
+        {
+          "name": "drill peck",
+          "element": "flying",
+          "poder": 20
+        }
+      ],
+      "stats": [
+        {
+          "defense": 30,
+          "attack": 45,
+          "hp": 2200
+        }
+      ],
+      "id": "ac4e"
+    },
+    {
+      "name": "fearow",
+      "url": "https://pokeapi.co/api/v2/pokemon/22/",
+      "type": "flying",
+      "level": 40,
+      "sprites": [
+        {
+          "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/22.png",
+          "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/22.png"
+        }
+      ],
+      "abilities": [
+        {
+          "name": "peck",
+          "element": "flying",
+          "poder": 15
+        },
+        {
+          "name": "drill peck",
+          "element": "flying",
+          "poder": 20
+        },
+        {
+          "name": "wing attack",
+          "element": "flying",
+          "poder": 35
+        }
+      ],
+      "stats": [
+        {
+          "defense": 60,
+          "attack": 85,
+          "hp": 4000
+        }
+      ],
+      "id": "6fb4"
+    },
+    {
+      "name": "ekans",
+      "url": "https://pokeapi.co/api/v2/pokemon/23/",
+      "type": "poison",
+      "level": 10,
+      "sprites": [
+        {
+          "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/23.png",
+          "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/23.png"
+        }
+      ],
+      "abilities": [
+        {
+          "name": "bite",
+          "element": "dark",
+          "poder": 30
+        },
+        {
+          "name": "poison sting",
+          "element": "poison",
+          "poder": 15
+        }
+      ],
+      "stats": [
+        {
+          "defense": 40,
+          "attack": 35,
+          "hp": 2500
+        }
+      ],
+      "id": "dcd0"
+    },
+    {
+      "name": "arbok",
+      "url": "https://pokeapi.co/api/v2/pokemon/24/",
+      "type": "poison",
+      "level": 30,
+      "sprites": [
+        {
+          "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/24.png",
+          "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/24.png"
+        }
+      ],
+      "abilities": [
+        {
+          "name": "bite",
+          "element": "dark",
+          "poder": 30
+        },
+        {
+          "name": "poison sting",
+          "element": "poison",
+          "poder": 15
+        },
+        {
+          "name": "acid",
+          "element": "poison",
+          "poder": 40
+        }
+      ],
+      "stats": [
+        {
+          "defense": 60,
+          "attack": 65,
+          "hp": 3200
+        }
+      ],
+      "id": "2337"
+    },
+    {
+      "name": "pikachu",
+      "url": "https://pokeapi.co/api/v2/pokemon/25/",
+      "type": "electric",
+      "level": 50,
+      "sprites": [
+        {
+          "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/25.png",
+          "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png"
+        }
+      ],
+      "abilities": [
+        {
+          "name": "thundershock",
+          "element": "electric",
+          "poder": 20
+        },
+        {
+          "name": "quick attack",
+          "element": "normal",
+          "poder": 10
+        },
+        {
+          "name": "thunderbolt",
+          "element": "electric",
+          "poder": 30
+        }
+      ],
+      "stats": [
+        {
+          "defense": 40,
+          "attack": 55,
+          "hp": 2600
+        }
+      ],
+      "id": "10bb"
+    },
+    {
+      "name": "raichu",
+      "url": "https://pokeapi.co/api/v2/pokemon/26/",
+      "type": "electric",
+      "level": 80,
+      "sprites": [
+        {
+          "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/26.png",
+          "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/26.png"
+        }
+      ],
+      "abilities": [
+        {
+          "name": "thundershock",
+          "element": "electric",
+          "poder": 20
+        },
+        {
+          "name": "thunderbolt",
+          "element": "electric",
+          "poder": 20
+        },
+        {
+          "name": "electric storm",
+          "element": "electric",
+          "poder": 60
+        }
+      ],
+      "stats": [
+        {
+          "defense": 60,
+          "attack": 85,
+          "hp": 3400
+        }
+      ],
+      "id": "15dc"
+    },
+    {
+      "name": "sandshrew",
+      "url": "https://pokeapi.co/api/v2/pokemon/27/",
+      "type": "ground",
+      "level": 10,
+      "sprites": [
+        {
+          "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/27.png",
+          "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/27.png"
+        }
+      ],
+      "abilities": [
+        {
+          "name": "scratch",
+          "element": "normal",
+          "poder": 6
+        },
+        {
+          "name": "mud shot",
+          "element": "ground",
+          "poder": 20
+        }
+      ],
+      "stats": [
+        {
+          "defense": 60,
+          "attack": 40,
+          "hp": 2800
+        }
+      ],
+      "id": "b7bc"
+    },
+    {
+      "name": "sandslash",
+      "url": "https://pokeapi.co/api/v2/pokemon/28/",
+      "type": "ground",
+      "level": 60,
+      "sprites": [
+        {
+          "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/28.png",
+          "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/28.png"
+        }
+      ],
+      "abilities": [
+        {
+          "name": "slash",
+          "element": "normal",
+          "poder": 20
+        },
+        {
+          "name": "earth power",
+          "element": "ground",
+          "poder": 30
+        },
+        {
+          "name": "earthquake",
+          "element": "ground",
+          "poder": 65
+        }
+      ],
+      "stats": [
+        {
+          "defense": 85,
+          "attack": 75,
+          "hp": 3600
+        }
+      ],
+      "id": "da15"
+    },
+    {
+      "name": "nidoran-f",
+      "url": "https://pokeapi.co/api/v2/pokemon/29/",
+      "type": "poison",
+      "level": 10,
+      "sprites": [
+        {
+          "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/29.png",
+          "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/29.png"
+        }
+      ],
+      "abilities": [
+        {
+          "name": "poison sting",
+          "element": "poison",
+          "poder": 15
+        },
+        {
+          "name": "double kick",
+          "element": "fighting",
+          "poder": 30
+        }
+      ],
+      "stats": [
+        {
+          "defense": 40,
+          "attack": 50,
+          "hp": 2500
+        }
+      ],
+      "id": "c005"
+    },
+    {
+      "name": "nidorina",
+      "url": "https://pokeapi.co/api/v2/pokemon/30/",
+      "type": "poison",
+      "level": 30,
+      "sprites": [
+        {
+          "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/30.png",
+          "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/30.png"
+        }
+      ],
+      "abilities": [
+        {
+          "name": "poison sting",
+          "element": "poison",
+          "poder": 15
+        },
+        {
+          "name": "body slam",
+          "element": "normal",
+          "poder": 85
+        }
+      ],
+      "stats": [
+        {
+          "defense": 55,
+          "attack": 65,
+          "hp": 3200
+        }
+      ],
+      "id": "1794"
+    },
+    {
+      "name": "nidoqueen",
+      "url": "https://pokeapi.co/api/v2/pokemon/31/",
+      "type": "ground",
+      "level": 60,
+      "sprites": [
+        {
+          "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/31.png",
+          "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/31.png"
+        }
+      ],
+      "abilities": [
+        {
+          "name": "poison sting",
+          "element": "poison",
+          "poder": 15
+        },
+        {
+          "name": "earth power",
+          "element": "ground",
+          "poder": 30
+        },
+        {
+          "name": "earthquake",
+          "element": "ground",
+          "poder": 65
+        }
+      ],
+      "stats": [
+        {
+          "defense": 90,
+          "attack": 82,
+          "hp": 4500
+        }
+      ],
+      "id": "17a3"
+    },
+    {
+      "name": "nidoran-m",
+      "url": "https://pokeapi.co/api/v2/pokemon/32/",
+      "type": "poison",
+      "level": 10,
+      "sprites": [
+        {
+          "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/32.png",
+          "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/32.png"
+        }
+      ],
+      "abilities": [
+        {
+          "name": "poison sting",
+          "element": "poison",
+          "poder": 15
+        },
+        {
+          "name": "double kick",
+          "element": "fighting",
+          "poder": 30
+        }
+      ],
+      "stats": [
+        {
+          "defense": 40,
+          "attack": 50,
+          "hp": 2500
+        }
+      ],
+      "id": "f63c"
+    },
+    {
+      "name": "nidorino",
+      "url": "https://pokeapi.co/api/v2/pokemon/33/",
+      "type": "poison",
+      "level": 30,
+      "sprites": [
+        {
+          "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/33.png",
+          "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/33.png"
+        }
+      ],
+      "abilities": [
+        {
+          "name": "poison sting",
+          "element": "poison",
+          "poder": 15
+        },
+        {
+          "name": "horn attack",
+          "element": "normal",
+          "poder": 65
+        }
+      ],
+      "stats": [
+        {
+          "defense": 45,
+          "attack": 70,
+          "hp": 2800
+        }
+      ],
+      "id": "8a25"
+    },
+    {
+      "name": "nidoking",
+      "url": "https://pokeapi.co/api/v2/pokemon/34/",
+      "type": "poison",
+      "level": 70,
+      "sprites": [
+        {
+          "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/34.png",
+          "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/34.png"
+        }
+      ],
+      "abilities": [
+        {
+          "name": "poison sting",
+          "element": "poison",
+          "poder": 15
+        },
+        {
+          "name": "toxic",
+          "element": "poison",
+          "poder": 30
+        },
+        {
+          "name": "venoshock",
+          "element": "poison",
+          "poder": 70
+        }
+      ],
+      "stats": [
+        {
+          "defense": 70,
+          "attack": 92,
+          "hp": 4500
+        }
+      ],
+      "id": "ad9e"
+    },
+    {
+      "name": "clefairy",
+      "url": "https://pokeapi.co/api/v2/pokemon/35/",
+      "type": "fairy",
+      "level": 35,
+      "sprites": [
+        {
+          "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/35.png",
+          "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/35.png"
+        }
+      ],
+      "abilities": [
+        {
+          "name": "pound",
+          "element": "normal",
+          "poder": 40
+        },
+        {
+          "name": "metronome",
+          "element": "normal",
+          "poder": 0
+        }
+      ],
+      "stats": [
+        {
+          "defense": 50,
+          "attack": 45,
+          "hp": 3200
+        }
+      ],
+      "id": "2fef"
+    },
+    {
+      "name": "clefable",
+      "url": "https://pokeapi.co/api/v2/pokemon/36/",
+      "type": "fairy",
+      "level": 40,
+      "sprites": [
+        {
+          "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/36.png",
+          "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/36.png"
+        }
+      ],
+      "abilities": [
+        {
+          "name": "pound",
+          "element": "normal",
+          "poder": 40
+        },
+        {
+          "name": "moonblast",
+          "element": "fairy",
+          "poder": 95
+        }
+      ],
+      "stats": [
+        {
+          "defense": 70,
+          "attack": 65,
+          "hp": 4000
+        }
+      ],
+      "id": "9714"
+    },
+    {
+      "name": "vulpix",
+      "url": "https://pokeapi.co/api/v2/pokemon/37/",
+      "type": "fire",
+      "level": 25,
+      "sprites": [
+        {
+          "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/37.png",
+          "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/37.png"
+        }
+      ],
+      "abilities": [
+        {
+          "name": "ember",
+          "element": "fire",
+          "poder": 15
+        },
+        {
+          "name": "flamethrower",
+          "element": "normal",
+          "poder": 30
+        }
+      ],
+      "stats": [
+        {
+          "defense": 50,
+          "attack": 60,
+          "hp": 2900
+        }
+      ],
+      "id": "ca56"
+    },
+    {
+      "name": "ninetales",
+      "url": "https://pokeapi.co/api/v2/pokemon/38/",
+      "type": "fire",
+      "level": 80,
+      "sprites": [
+        {
+          "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/38.png",
+          "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/38.png"
+        }
+      ],
+      "abilities": [
+        {
+          "name": "ember",
+          "element": "fire",
+          "poder": 200
+        },
+        {
+          "name": "fire ball",
+          "element": "fire",
+          "poder": 240
+        },
+        {
+          "name": "fire blast",
+          "element": "fire",
+          "poder": 510
+        }
+      ],
+      "stats": [
+        {
+          "defense": 75,
+          "attack": 85,
+          "hp": 4800
+        }
+      ],
+      "id": "571b"
+    }
+  ],
+  "effectivenessTable": {
+    "normal": {
+      "strongAgainst": [],
+      "weakAgainst": [
+        "rock",
+        "ghost",
+        "steel"
+      ],
+      "neutralAgainst": [
+        "fire",
+        "water",
+        "grass",
+        "electric",
+        "ice",
+        "dragon",
+        "dark",
+        "fairy",
+        "poison",
+        "flying",
+        "ground",
+        "bug",
+        "psychic"
+      ]
+    },
+    "fighting": {
+      "strongAgainst": [
+        "normal",
+        "rock",
+        "steel",
+        "ice",
+        "dark"
+      ],
+      "weakAgainst": [
+        "flying",
+        "psychic",
+        "fairy"
+      ],
+      "neutralAgainst": [
+        "fighting",
+        "fire",
+        "water",
+        "grass",
+        "electric",
+        "dragon",
+        "poison",
+        "ground",
+        "bug",
+        "ghost"
+      ]
+    },
+    "flying": {
+      "strongAgainst": [
+        "fighting",
+        "bug",
+        "grass"
+      ],
+      "weakAgainst": [
+        "rock",
+        "electric",
+        "ice"
+      ],
+      "neutralAgainst": [
+        "normal",
+        "water",
+        "steel",
+        "fire",
+        "psychic",
+        "fairy",
+        "ground",
+        "dark",
+        "dragon",
+        "poison",
+        "ghost"
+      ]
+    },
+    "poison": {
+      "strongAgainst": [
+        "grass",
+        "fairy"
+      ],
+      "weakAgainst": [
+        "ground",
+        "psychic",
+        "steel"
+      ],
+      "neutralAgainst": [
+        "normal",
+        "fire",
+        "water",
+        "electric",
+        "rock",
+        "bug",
+        "dark",
+        "ice",
+        "dragon",
+        "ghost",
+        "flying"
+      ]
+    },
+    "ground": {
+      "strongAgainst": [
+        "fire",
+        "electric",
+        "rock",
+        "poison",
+        "steel"
+      ],
+      "weakAgainst": [
+        "water",
+        "grass",
+        "ice",
+        "flying"
+      ],
+      "neutralAgainst": [
+        "normal",
+        "bug",
+        "dark",
+        "psychic",
+        "fairy",
+        "ghost",
+        "dragon"
+      ]
+    },
+    "rock": {
+      "strongAgainst": [
+        "fire",
+        "flying",
+        "bug",
+        "ice"
+      ],
+      "weakAgainst": [
+        "water",
+        "grass",
+        "fighting",
+        "ground",
+        "steel"
+      ],
+      "neutralAgainst": [
+        "normal",
+        "electric",
+        "psychic",
+        "dark",
+        "fairy",
+        "poison",
+        "ghost",
+        "dragon"
+      ]
+    },
+    "bug": {
+      "strongAgainst": [
+        "grass",
+        "psychic",
+        "dark"
+      ],
+      "weakAgainst": [
+        "fire",
+        "flying",
+        "rock"
+      ],
+      "neutralAgainst": [
+        "normal",
+        "water",
+        "electric",
+        "steel",
+        "ice",
+        "fairy",
+        "poison",
+        "ground",
+        "dragon",
+        "ghost",
+        "fighting"
+      ]
+    },
+    "ghost": {
+      "strongAgainst": [
+        "psychic",
+        "ghost"
+      ],
+      "weakAgainst": [
+        "dark"
+      ],
+      "neutralAgainst": [
+        "fire",
+        "water",
+        "grass",
+        "electric",
+        "ice",
+        "steel",
+        "fairy",
+        "rock",
+        "ground",
+        "dragon",
+        "poison",
+        "flying",
+        "bug",
+        "fighting"
+      ]
+    },
+    "steel": {
+      "strongAgainst": [
+        "fairy",
+        "ice",
+        "rock"
+      ],
+      "weakAgainst": [
+        "fire",
+        "fighting",
+        "ground",
+        "water"
+      ],
+      "neutralAgainst": [
+        "normal",
+        "grass",
+        "electric",
+        "psychic",
+        "dark",
+        "ghost",
+        "dragon",
+        "poison",
+        "flying",
+        "bug"
+      ]
+    },
+    "fire": {
+      "strongAgainst": [
+        "grass",
+        "bug",
+        "ice",
+        "steel"
+      ],
+      "weakAgainst": [
+        "water",
+        "rock",
+        "fire",
+        "dragon"
+      ],
+      "neutralAgainst": [
+        "normal",
+        "electric",
+        "psychic",
+        "dark",
+        "fairy",
+        "ground",
+        "ghost",
+        "flying",
+        "fighting",
+        "poison"
+      ]
+    },
+    "water": {
+      "strongAgainst": [
+        "fire",
+        "rock",
+        "ground"
+      ],
+      "weakAgainst": [
+        "electric",
+        "water",
+        "grass"
+      ],
+      "neutralAgainst": [
+        "normal",
+        "flying",
+        "bug",
+        "psychic",
+        "steel",
+        "dark",
+        "fairy",
+        "poison",
+        "ice",
+        "dragon",
+        "ghost",
+        "fighting"
+      ]
+    },
+    "grass": {
+      "strongAgainst": [
+        "water",
+        "rock",
+        "ground"
+      ],
+      "weakAgainst": [
+        "fire",
+        "flying",
+        "bug",
+        "poison",
+        "ice",
+        "grass"
+      ],
+      "neutralAgainst": [
+        "normal",
+        "electric",
+        "psychic",
+        "steel",
+        "dark",
+        "fairy",
+        "dragon",
+        "ghost",
+        "fighting"
+      ]
+    },
+    "electric": {
+      "strongAgainst": [
+        "water",
+        "flying"
+      ],
+      "weakAgainst": [
+        "ground",
+        "grass"
+      ],
+      "neutralAgainst": [
+        "normal",
+        "fire",
+        "rock",
+        "bug",
+        "psychic",
+        "steel",
+        "dark",
+        "fairy",
+        "poison",
+        "ice",
+        "dragon",
+        "ghost",
+        "fighting"
+      ]
+    },
+    "psychic": {
+      "strongAgainst": [
+        "fighting",
+        "poison"
+      ],
+      "weakAgainst": [
+        "bug",
+        "ghost",
+        "dark"
+      ],
+      "neutralAgainst": [
+        "grass",
+        "normal",
+        "fire",
+        "water",
+        "electric",
+        "rock",
+        "steel",
+        "fairy",
+        "ice",
+        "dragon",
+        "flying",
+        "ground"
+      ]
+    },
+    "ice": {
+      "strongAgainst": [
+        "grass",
+        "flying",
+        "ground",
+        "dragon"
+      ],
+      "weakAgainst": [
+        "fire",
+        "steel",
+        "fighting",
+        "rock"
+      ],
+      "neutralAgainst": [
+        "normal",
+        "water",
+        "electric",
+        "bug",
+        "psychic",
+        "dark",
+        "fairy",
+        "poison",
+        "ghost",
+        "fighting"
+      ]
+    },
+    "dragon": {
+      "strongAgainst": [
+        "dragon"
+      ],
+      "weakAgainst": [
+        "fairy",
+        "ice"
+      ],
+      "neutralAgainst": [
+        "normal",
+        "fire",
+        "water",
+        "electric",
+        "grass",
+        "rock",
+        "bug",
+        "psychic",
+        "steel",
+        "dark",
+        "ground",
+        "ghost",
+        "flying",
+        "fighting",
+        "poison"
+      ]
+    },
+    "dark": {
+      "strongAgainst": [
+        "psychic",
+        "ghost"
+      ],
+      "weakAgainst": [
+        "fighting",
+        "bug",
+        "fairy"
+      ],
+      "neutralAgainst": [
+        "normal",
+        "fire",
+        "water",
+        "electric",
+        "rock",
+        "steel",
+        "poison",
+        "ice",
+        "dragon",
+        "flying",
+        "grass",
+        "ground"
+      ]
+    },
+    "fairy": {
+      "strongAgainst": [
+        "fighting",
+        "dragon",
+        "dark"
+      ],
+      "weakAgainst": [
+        "steel",
+        "poison",
+        "fairy"
+      ],
+      "neutralAgainst": [
+        "normal",
+        "fire",
+        "water",
+        "electric",
+        "rock",
+        "bug",
+        "psychic",
+        "grass",
+        "ice",
+        "ghost",
+        "flying",
+        "ground"
+      ]
+    }
+  },
+  "Users": [
+    {
+      "User": "IA Inicial",
+      "Senha": "admin",
+      "Pokemons": [
+        "charmander",
+        "bulbasaur",
+        "squirtle",
+        "pidgey",
+        "pikachu"
+      ],
+      "UserPokedex": {
+        "1": "charmander",
+        "4": "bulbasaur",
+        "7": "squirtle",
+        "16": "pidgey",
+        "25": "pikachu"
+      },
+      "id": "015e"
+    },
+    {
+      "User": "Juca",
+      "Senha": "123123",
+      "Pokemons": [
+        "charizard",
+        "venusaur",
+        "blastoise",
+        "pidgeot",
+        "ninetales"
+      ],
+      "UserPokedex": {
+        "3": "charizard",
+        "6": "venusaur",
+        "9": "blastoise",
+        "18": "pidgeot",
+        "38": "ninetales"
       }
-    ],
-
-    "Encounters": [
-      {
-        "PadraoVegetação1": "./Front_Poke/src/assets/PadraoVegetacao.webp",
-        "PadraoFogo1": "C:/Users/Usuario/source/repos/PokéAPI/Front Poké/front-poke/src/assets/PadraoFogo.png"
-      }
-    ]
-  }
-    
+    },
+    {
+      "id": "0284",
+      "username": "Jucanalha",
+      "email": "akaka"
+    },
+    {
+      "id": "1b81",
+      "username": "Jakaka",
+      "email": "123123123"
+    }
+  ]
+}
